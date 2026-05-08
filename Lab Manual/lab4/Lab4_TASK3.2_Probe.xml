@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MTConnectDevices xmlns:m="urn:mtconnect.org:MTConnectDevices:1.5" xmlns="urn:mtconnect.org:MTConnectDevices:1.5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:mtconnect.org:MTConnectDevices:1.5 /schemas/MTConnectDevices_1.5.xsd">
+  <Header creationTime="2026-02-25T19:28:21Z" sender="AaryaFarheen" instanceId="1772047538" version="1.8.0.3" assetBufferSize="1024" assetCount="0" bufferSize="131072"/>
+  <Devices>
+    <Device id="s1" name="sensor" uuid="000">
+      <DataItems>
+        <DataItem category="EVENT" id="avail" type="AVAILABILITY"/>
+        <DataItem category="SAMPLE" id="a1" name="Xacc" nativeUnits="MILLIMETER/SECOND2" type="ACCELERATION" units="MILLIMETER/SECOND2"/>
+        <DataItem category="SAMPLE" id="a2" name="Yacc" nativeUnits="MILLIMETER/SECOND2" type="ACCELERATION" units="MILLIMETER/SECOND2"/>
+        <DataItem category="SAMPLE" id="a3" name="Zacc" nativeUnits="MILLIMETER/SECOND2" type="ACCELERATION" units="MILLIMETER/SECOND2"/>
+        <DataItem category="SAMPLE" id="h1" name="humd" nativeUnits="PERCENT" subType="ACTUAL" type="HUMIDITY_RELATIVE" units="PERCENT"/>
+        <DataItem category="SAMPLE" id="t1" name="temp" nativeUnits="CELIUS" subType="ACTUAL" type="TEMPERATURE" units="CELIUS"/>
+        <DataItem category="EVENT" discrete="true" id="s1_asset_chg" type="ASSET_CHANGED"/>
+        <DataItem category="EVENT" id="s1_asset_rem" type="ASSET_REMOVED"/>
+      </DataItems>
+    </Device>
+  </Devices>
+</MTConnectDevices>

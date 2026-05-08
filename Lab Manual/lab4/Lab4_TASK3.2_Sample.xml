@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/styles/Streams.xsl"?>
+<MTConnectStreams xmlns:m="urn:mtconnect.org:MTConnectStreams:1.5" xmlns="urn:mtconnect.org:MTConnectStreams:1.5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:mtconnect.org:MTConnectStreams:1.5 /schemas/MTConnectStreams_1.5.xsd">
+  <Header creationTime="2026-02-25T19:28:17Z" sender="AaryaFarheen" instanceId="1772047538" version="1.8.0.3" bufferSize="131072" nextSequence="24" firstSequence="1" lastSequence="23"/>
+  <Streams>
+    <DeviceStream name="sensor" uuid="000">
+      <ComponentStream component="Device" name="sensor" componentId="s1">
+        <Samples>
+          <Acceleration dataItemId="a1" name="Xacc" sequence="7" timestamp="2026-02-25T19:25:38.558371Z">UNAVAILABLE</Acceleration>
+          <Acceleration dataItemId="a1" name="Xacc" sequence="10" timestamp="2026-02-25T19:28:14.262791Z">-0.5491724</Acceleration>
+          <Acceleration dataItemId="a1" name="Xacc" sequence="13" timestamp="2026-02-25T19:28:15.282268Z">-0.196133</Acceleration>
+          <Acceleration dataItemId="a1" name="Xacc" sequence="16" timestamp="2026-02-25T19:28:16.29942Z">0.5099458</Acceleration>
+          <Acceleration dataItemId="a1" name="Xacc" sequence="21" timestamp="2026-02-25T19:28:17.586039Z">0.6668522</Acceleration>
+          <Acceleration dataItemId="a2" name="Yacc" sequence="6" timestamp="2026-02-25T19:25:38.558253Z">UNAVAILABLE</Acceleration>
+          <Acceleration dataItemId="a2" name="Yacc" sequence="11" timestamp="2026-02-25T19:28:14.262791Z">0.4707192</Acceleration>
+          <Acceleration dataItemId="a2" name="Yacc" sequence="14" timestamp="2026-02-25T19:28:15.282268Z">-0.6668522</Acceleration>
+          <Acceleration dataItemId="a2" name="Yacc" sequence="17" timestamp="2026-02-25T19:28:16.29942Z">0.9414384</Acceleration>
+          <Acceleration dataItemId="a2" name="Yacc" sequence="22" timestamp="2026-02-25T19:28:17.586039Z">1.4906108</Acceleration>
+          <Acceleration dataItemId="a3" name="Zacc" sequence="5" timestamp="2026-02-25T19:25:38.558133Z">UNAVAILABLE</Acceleration>
+          <Acceleration dataItemId="a3" name="Zacc" sequence="12" timestamp="2026-02-25T19:28:14.262791Z">9.7281968</Acceleration>
+          <Acceleration dataItemId="a3" name="Zacc" sequence="15" timestamp="2026-02-25T19:28:15.282268Z">9.7674234</Acceleration>
+          <Acceleration dataItemId="a3" name="Zacc" sequence="18" timestamp="2026-02-25T19:28:16.29942Z">9.5320638</Acceleration>
+          <Acceleration dataItemId="a3" name="Zacc" sequence="23" timestamp="2026-02-25T19:28:17.586039Z">9.4928372</Acceleration>
+          <HumidityRelative dataItemId="h1" name="humd" sequence="4" subType="ACTUAL" timestamp="2026-02-25T19:25:38.557979Z">UNAVAILABLE</HumidityRelative>
+          <HumidityRelative dataItemId="h1" name="humd" sequence="20" subType="ACTUAL" timestamp="2026-02-25T19:28:16.315334Z">51</HumidityRelative>
+          <Temperature dataItemId="t1" name="temp" sequence="3" subType="ACTUAL" timestamp="2026-02-25T19:25:38.557826Z">UNAVAILABLE</Temperature>
+          <Temperature dataItemId="t1" name="temp" sequence="19" subType="ACTUAL" timestamp="2026-02-25T19:28:16.315334Z">23</Temperature>
+        </Samples>
+        <Events>
+          <Availability dataItemId="avail" sequence="8" timestamp="2026-02-25T19:25:38.558489Z">UNAVAILABLE</Availability>
+          <Availability dataItemId="avail" sequence="9" timestamp="2026-02-25T19:28:14.261735Z">AVAILABLE</Availability>
+          <AssetChanged dataItemId="s1_asset_chg" sequence="2" timestamp="2026-02-25T19:25:38.557731Z">UNAVAILABLE</AssetChanged>
+          <AssetRemoved dataItemId="s1_asset_rem" sequence="1" timestamp="2026-02-25T19:25:38.556931Z">UNAVAILABLE</AssetRemoved>
+        </Events>
+      </ComponentStream>
+    </DeviceStream>
+  </Streams>
+</MTConnectStreams>
